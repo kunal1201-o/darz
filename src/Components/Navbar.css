@@ -1,0 +1,526 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+.navbars {
+ 
+    display: flex;
+   
+     height: 3.5rem;
+     
+   align-items: center;
+    position: fixed;
+    width:100vw;
+    top:0;
+    z-index: 1;
+    background-color: rgb(235, 201, 50);
+    font-size: 1.5rem;
+    justify-content: flex-start;
+    
+   }
+   .cart{
+       position: absolute;
+       right: 25px;
+      
+
+   }
+   .bar{
+    margin-left: 23px;
+ 
+    
+   }
+   .search{
+       position: absolute;
+       right:70px;
+     
+   }
+   .item{
+       display: flex;
+       margin-top: 70px;
+      
+   }
+   .red{
+       padding:10px;
+   
+   }
+  
+   .red:hover{
+        border-bottom:2px solid orange;
+   }
+   .carousel {
+    
+    width: 60%;
+    margin: auto;
+    margin-top: 97px;
+   
+        width:640px;
+       
+      
+}
+@media (max-width:1000px){
+    .carousel{
+        width: 100vw;
+
+    }
+}
+.upbox{
+    text-align: center;
+    width: 100vw;
+    margin-top:0px;
+    position: fixed;
+     z-index: 1;
+    top:55px;
+    left:12px;
+    background-color: white;
+    box-shadow: 2px 2px 5px;
+}
+.container{
+    margin:0;
+    
+}
+.r{
+    margin-top: 10px;;
+    margin:10px;
+    text-align: center;
+}
+@media (max-width:1000px){
+
+
+.downbox{
+  display: flex;
+  overflow-x:scroll;
+  overflow-y: hidden;
+  flex-wrap: nowrap;
+  margin-right:20px;
+  
+}
+.downbox::-webkit-scrollbar{
+    width:0;
+}
+}
+
+.r img{
+    width:50px;
+    height:50px;
+    border-radius: 100%;
+}
+.sbox{
+    width: 50%;
+    text-align: center;
+    box-shadow: 1px 1px 3px;
+    height: 51px;
+    margin-bottom: 60px;;
+
+   
+}
+
+
+.navbarf {
+ 
+     
+ display: flex;
+
+ height: 3rem;
+ padding-bottom: 10px;
+width:100vw;
+ position: fixed;
+ bottom: 0;
+    background-color: rgb(235, 201, 50);
+    font-size: 1.5rem;
+    
+   }
+   .menu-bars-h{
+ 
+    display: inline-block;
+  
+    width: 25px;
+    height: 18px;
+    color: black;
+    margin:auto;
+    margin-bottom:14px;
+  }
+  .menu-bars{
+      margin-left:2rem;
+      font-size: 1.6rem;
+      background-color: none;
+      color:gray
+  }
+  
+  .nav-menu{
+      background-color: rgb(255, 255, 255);
+      width:290px;
+      height:100vh;
+      display: flex;
+      justify-content: center;
+      position: fixed;
+      top:0;
+     left:-100%;
+     z-index: +2;
+      transition: 850ms;
+  }
+  .nav-menu.active{
+      left:0;
+transition: 350ms;
+  }
+  .nav-text{
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      padding:8px 0px 8px 0px;
+      list-style: none;
+      height:45px;
+  }
+  .nav-text a{
+      text-decoration: none;
+      color:rgb(6, 7, 6);
+      font-size: 18px;
+      width: 95%;
+      height: 100%;
+      align-items: center;
+      padding:0 16px;
+      border-radius: 4px;
+  }
+  .nav-text a:hover{
+      background-color: orange;
+  }
+
+  .nav-menu-items{
+      width:100%;
+      padding-left: 0px;
+  }
+.navbar-toggle{
+    background-color: rgb(231, 190, 56);
+    width: 100%;
+    height:60px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+ padding-left: 20px;
+  ;
+}
+span{
+    margin-left: 16px;;
+}
+.container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    max-width: 100vw;
+}
+.profile{
+    display: flex;
+    justify-content: space-around;
+    background-image:linear-gradient(
+        115deg,
+        rgba(228, 231, 45, 0.8),
+        rgba(67, 67, 70, 0.7)
+      ), url('Images/pic23.jpg');
+
+      background-size: 50vw 50px;
+}
+.des{
+    width:75%;
+    color: white;
+    padding:15px 0px 10px 0px;
+    line-height: 1rem;
+}
+.des h6{
+ font-size: 1.2rem;
+ margin-bottom: 5px;  
+ font-weight: 700; 
+}
+.pic{
+    font-size: 2.9rem;
+    color:white
+}
+.bigblock{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+ 
+}
+.block{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(255, 254, 254);
+}
+.box{
+    
+    background-size: cover;
+  
+    background-image: linear-gradient(
+        115deg,
+        rgba(79, 79, 82, 0.8),
+        rgba(67, 67, 70, 0.7)
+      ),
+      url('Images/pic10.jpg'); /* The least supported option. */
+    width:50%;
+    height:150px;
+    margin:10px;
+    color:white;
+    text-align: center;
+  
+    
+
+}
+
+.pro{
+    margin-top: 55px;
+    background-color: yellowgreen;
+    text-align: center;
+    color:white;
+    padding-bottom: 10px;
+    background-image:linear-gradient(
+        115deg,
+        rgba(228, 231, 45, 0.8),
+        rgba(67, 67, 70, 0.7)
+      ), url('Images/pic23.jpg');
+    background-size:100vw 230px; 
+
+    background-repeat: no-repeat;
+
+}
+.pro .k{
+ font-size: 5rem;
+}
+.v{
+    padding:18px;
+  line-height: 1.7rem;
+
+}
+.name {
+    padding:10px;
+    padding-left: 20px;
+    font-weight: bold;
+    
+}
+.bt button{
+   position: fixed;
+   bottom: 10px;
+   left:10px;
+   background-color: yellow;
+border:none;   
+
+}
+.log{
+    position: fixed;
+    right:10px;
+    bottom: 10px;
+}
+.text{
+    margin-top: 130px;
+    text-align: center;
+    font-weight: bold;
+}
+.icon{
+    font-size: 1.4rem;
+}
+.earth{
+    position: absolute;
+    right:5px;
+    top:8px;
+    font-size: 1.5rem;
+}
+.carousel-control-prev {
+    display: none;
+}
+.carousel-control-next{
+    display: none;
+}
+.carousel-caption{
+   width:40%;
+   display: block;
+ 
+   font-weight: bold;
+}
+.btni{
+    border:1px solid rgb(29, 43, 121);
+    background:none;
+    color:white;
+    padding:4px;
+    border-radius: 4px;
+}
+.btni:hover{
+    background-color: rgb(18, 44, 92);
+    color:white;
+    border:1px solid rgb(199, 199, 198);
+}
+.form{
+  z-index: 1;
+  box-shadow: 2px 2px 5px ;
+   width:95vw;
+   margin:auto;
+}
+.input input{
+    width: 90vw;
+    padding:10px;
+   border:none;
+    border-bottom: 2px solid rgb(124, 123, 123);
+    margin:auto;
+    margin:10px;
+}
+.btno{
+    width: 90vw;
+    padding:7px;
+    background-color: orange;
+    border:none;
+    border-radius: 5px;;
+}
+.upboxs{
+    display: flex;
+    overflow-x:scroll;
+    overflow-y: hidden;
+    flex-wrap: nowrap;
+    margin-top:55px;
+ 
+}
+.upboxs::-webkit-scrollbar{
+    width:0;
+}
+.bg-model{
+    width:100vw;
+    height: 100vh;
+    background-color:rgba(0,0,0,0.7);
+ 
+    position: absolute;
+    top:0;
+   z-index: 2;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    
+}
+.model-content{
+    width:60vw;
+  
+    background-color: white;
+    border-radius: 4px;
+ 
+    text-align: center;
+   
+}
+.in{
+    margin-top:50px;
+}
+.in input{
+    padding:4px;
+    margin:15px;
+    border:none;
+    display: block;
+    border-bottom: 2px solid gainsboro;
+     width:90%;
+    margin: 10px auto;
+    
+}
+.in button{
+    padding:4px;
+    width:90%;
+    display: block;
+    background-color: orange;
+    margin: auto;
+    
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    border:none;
+}
+
+.imgLogo img{
+    width:7rem;
+
+
+    margin-top:10px;
+}
+.bg-box{
+
+    width:100vw;
+    height: 100vh;
+    background-color:rgba(0,0,0,);
+   
+    position: absolute;
+    top:0;
+   z-index: 2;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+.navbarsl{
+    background-color: orange;
+}
+.user{
+    font-size: 6rem;
+    color:gainsboro;
+}
+.bg-block{
+    width:60vw;
+    
+    background-color: white;
+    border-radius: 4px;
+
+    text-align: center;
+}
+.otp{
+    margin-top:600px;
+}
+.imgLogo1 img{
+    width:6rem;
+
+    display: block;
+    margin:auto;
+    margin-top: 100px;
+} 
+.Tail{
+    margin-top:120px;
+}
+.Tail p{
+    text-align: center;
+}
+.cartL{
+    display: block;
+    width: 50%;
+    margin: auto;
+    margin-top: 200px;
+    text-align: center;
+}
+.imgCa {
+font-size: 5rem;
+color:gainsboro;
+}
+.cartL button{
+padding:4px;
+background-color: gold;
+border:none;
+}
+.find{
+
+border:1px solid rgb(168, 162, 162);
+display: block;
+width:98vw;
+margin:auto;
+margin-top: 70px;
+border-radius: 5px;
+}
+.find input{
+    width:93vw;
+    padding:10px;
+    border-radius: 5px;
+    display: inline-block;
+    margin:auto;
+    border:none;
+;
+}
+.Fa{
+
+    width:3vw;
+    padding:10px;
+    border-radius: 4px;
+    display: inline-block;
+}
+.so1{
+display: flex;
+margin:10px;
+border-bottom:1px solid gainsboro;
+}
+.so1 img{
+    width:100px;
+    margin:10px;
+    display:inline-block;
+}
